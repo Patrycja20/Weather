@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    background-color: #0b0b16;
+}
+.Title{
+    text-shadow: 1px 1px 5px #a7a8a7;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: #cacbba;
+    float: none;
+}
+.Image{
+    filter: blur(10px);
+}

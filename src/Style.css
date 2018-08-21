@@ -6,10 +6,36 @@ body{
     text-shadow: 1px 1px 5px #a7a8a7;
     text-align: center;
     font-size: x-large;
-    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-family: "Advent Pro", Arial, sans-serif;
     color: #cacbba;
     float: none;
 }
 .Image{
-    filter: blur(10px);
+    filter: blur(10px) brightness(0.9);
+    position: absolute;
+    z-index:-1;
+}
+.Package{
+    position: relative;
+    z-index: 1;
+    justify-content: space-evenly;
+    display: flex;
+}
+.Block {
+    text-align: center;
+    font-size: x-large;
+    font-family: "Leelawadee", Arial, sans-serif;
+    color: #e0eae3;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+select{
+    font-family: "Leelawadee", Arial, sans-serif;
+    color: #eaf4ed;
+    padding: 5px;
+    font-size: x-large;
+    border: 1px solid #0b0b16;
+    border-radius: 5px;
+
+    background: rgba(11,11,22,0.4);
 }

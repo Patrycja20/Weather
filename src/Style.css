@@ -31,7 +31,7 @@ body{
 }
 .Info {
     width:500px;
-    height:370px;
+    height:300px;
     border: 1px solid #0b0b16;
     border-radius: 5px;
     background: rgba(11,11,22,0.4);
@@ -47,4 +47,8 @@ select{
     background: rgba(11,11,22,0.4);
 }
 .Temperature{
+    font-size: 4em;
+}
+.Partition{
+    font-size: 0.7em;
 }

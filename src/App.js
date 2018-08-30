@@ -30,8 +30,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="Title"><h1>What's the weather?</h1></div>
-        <div className="Background" width="100%" height="30%"><img src={Clouds}  className="Image" width="100%" height="100%" the_city={city[0].name} /></div>
-        <div className="Package"><div className="Block"><City x_city={city[0].x} y_city={city[0].y} setCity={this.selectCity} /></div><div className="Block"><div className="Info"><InfoWeather/></div></div></div>
+        <div className="Background" width="100%" height="30%" ><img src={Clouds}  className="Image" width="100%" height="100%"/></div>
+        <div className="Package"><div className="Block"><City x_city={city[0].x} y_city={city[0].y} setCity={this.selectCity} /></div><div className="Block"><div className="Info"><InfoWeather the_city={city[0].name}/></div></div></div>
 
       </div>
     );

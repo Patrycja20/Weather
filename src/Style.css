@@ -5,7 +5,7 @@ body{
 .Title{
     text-shadow: 1px 1px 5px #a7a8a7;
     text-align: center;
-    font-size: x-large;
+    font-size: large;
     font-family: "Advent Pro", Arial, sans-serif;
     color: #cacbba;
     float: none;
@@ -23,19 +23,26 @@ body{
 }
 .Block {
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
     font-family: "Leelawadee", Arial, sans-serif;
     color: #e0eae3;
     padding-top: 50px;
     flex-wrap: wrap;
 }
+.Info {
+    width:500px;
+    height:370px;
+    border: 1px solid #0b0b16;
+    border-radius: 5px;
+    background: rgba(11,11,22,0.4);
+    padding: 10px;
+}
 select{
     font-family: "Leelawadee", Arial, sans-serif;
     color: #eaf4ed;
     padding: 5px;
-    font-size: x-large;
+    font-size: xx-large;
     border: 1px solid #0b0b16;
     border-radius: 5px;
-
     background: rgba(11,11,22,0.4);
 }

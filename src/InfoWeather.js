@@ -37,7 +37,7 @@ class InfoWeather extends React.Component {
 
     return <div>Weather information<br/><br/>
       <div className="Temperature">{this.state.data.main.temp}&deg;C<br/>
-      </div><div className="Partition">Partition:
+      </div><div className="Precipitation">Precipitation:
       <img src={`http://openweathermap.org/img/w/${this.state.data.weather[0].icon}.png`} alt='' height="70" width="70"/>
       </div>
     </div>
